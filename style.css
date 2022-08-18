@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+}
+
+.header {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  background: #5c6158;
+  height: 80px;
+  gap: 6rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-nav {
+  height: 20px;
+  gap: 2rem;
+  margin-right: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  list-style-type: none;
+}
+
+a:link,
+a:visited {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.logo {
+  height: 80px;
+  margin-left: 2rem;
+}
+
+.main {
+  width: 1440px;
+  height: 1000px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainpicture {
+  width: 1440px;
+  height: 1000px;
+  position: absolute;
+}
+
+.h1 {
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 100;
+  font-size: 25px;
+  color: #171717;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-box {
+  background: blue;
+  height: 100px;
+}
+
+.sustainability {
+  background-color: yellow;
+  padding: 1rem;
+  height: 30px;
+}
+
+.bottom-box {
+  background: red;
+  height: 100px;
+}
