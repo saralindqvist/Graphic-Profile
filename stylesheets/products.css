@@ -1,0 +1,54 @@
+.products {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5rem;
+}
+
+.product-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  letter-spacing: 1px;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 5rem;
+  margin-left: 1rem;
+}
+
+.product-box {
+  display: flex;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+.product-box-shirt {
+  display: flex;
+  margin-bottom: 6rem;
+}
+
+.cap {
+  height: 350px;
+  width: 360px;
+  padding: 2rem;
+}
+
+.black-shirt {
+  height: 350px;
+  padding: 2rem;
+}
+
+.tote-bag {
+  height: 345px;
+  padding: 2rem;
+}
+.white-shirt {
+  height: 350px;
+  padding: 2rem;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  color: black;
+  font-size: 14px;
+  text-align: center;
+}

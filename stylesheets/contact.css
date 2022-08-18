@@ -1,0 +1,39 @@
+main {
+  height: 700px;
+}
+
+.product-text {
+  margin-top: 10rem;
+}
+
+.contact-form {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  color: black;
+  font-size: 14px;
+}
+
+#name,
+#email {
+  width: 350px;
+  height: 30px;
+}
+
+#question {
+  width: 350px;
+  height: 130px;
+}
+
+#submit {
+  width: 100%;
+  background-color: #5c6158;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

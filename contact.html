@@ -4,10 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="favicon" href="assets/favicon.png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="stylesheets/style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&family=Roboto:wght@300;400;500;700&display=swap"
       rel="stylesheet"
@@ -16,6 +12,10 @@
       href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap"
       rel="stylesheet"
     />
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
+    <link rel="stylesheet" href="stylesheets/products.css" />
+    <link rel="stylesheet" href="stylesheets/style.css" />
+    <link rel="stylesheet" href="stylesheets/contact.css" />
     <title>Livré</title>
   </head>
   <body>
@@ -29,39 +29,20 @@
         </ul>
       </div>
     </header>
-    <div class="main">
-      <img class="mainpicture" src="assets/pexels-photo-6794052.jpeg" />
-      <div class="h1">
-        ”<b>LIVRÉ</b> was founded with the<br />
-        mission to simplify good choices<br />
-        and influence positive change in<br />
-        our fashion industry.”
+    <main>
+      <div class="product-text">LET'S STAY IN TOUCH</div>
+      <div class="contact-form">
+        <form action="/action_page.php">
+          <label for="fname">Name</label><br />
+          <input type="text" id="name" name="name" /><br /><br />
+          <label for="lname">Email</label><br />
+          <input type="text" id="email" name="email" /><br /><br />
+          <label for="lname">What is your question?</label><br />
+          <input type="text" id="question" name="question" /><br /><br />
+          <input type="button" id="submit" value="Send" />
+        </form>
       </div>
-    </div>
-    <div class="top-box">
-      <div class="products">
-        <h2>PRODUCTS 2022</h2>
-        <img
-          class="box-pictures"
-          src="assets/photo-1562636714-adbfdd55959d.png"
-        />
-      </div>
-      <div class="sustainability">
-        <h2>SUSTAINABILITY</h2>
-        <img class="box-pictures" src="assets/pexels-photo-7262775.jpeg" />
-      </div>
-    </div>
-
-    <div class="bottom-box">
-      <div class="materials">
-        <h2>MATERIALS</h2>
-        <img class="box-pictures" src="assets/pexels-photo-4440344.jpeg" />
-      </div>
-      <div class="explore">
-        <h2>EXPLORE LIVRÉ</h2>
-        <img class="box-pictures" src="assets/pexels-photo-6794044.jpeg" />
-      </div>
-    </div>
+    </main>
     <footer>
       <div class="footer-box">
         <div class="menu">
@@ -78,7 +59,7 @@
           <li><a>Customer Service</a></li>
         </div>
       </div>
-      <div class="creator">Created by Sara Lindqvist 2022</div>
+      <div class="creator">Created By Sara Lindqvist 2022</div>
     </footer>
   </body>
 </html>
