@@ -38,6 +38,10 @@ a:visited {
   display: inline-block;
 }
 
+a:hover {
+  color: #b5b1a7;
+}
+
 .logo {
   height: 80px;
   margin-left: 2rem;
@@ -128,6 +132,12 @@ h2 {
   background: white;
 }
 
+h2:hover {
+  background: #b5b1a7;
+  color: white;
+  cursor: pointer;
+}
+
 .bottom-box {
   display: flex;
   justify-content: space-around;
@@ -164,6 +174,7 @@ footer {
   font-size: 16px;
   text-decoration: none;
   list-style-type: none;
+  cursor: pointer;
 }
 .contact {
   font-family: "Roboto", sans-serif;
@@ -172,6 +183,7 @@ footer {
   font-size: 16px;
   text-decoration: none;
   list-style-type: none;
+  cursor: pointer;
 }
 
 li {
