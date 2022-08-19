@@ -48,8 +48,8 @@ a:hover {
 }
 
 .main {
-  width: 1433px;
-  height: 1000px;
+  width: 100%;
+  height: 900px;
   position: relative;
   display: flex;
   align-items: center;
@@ -57,15 +57,15 @@ a:hover {
 }
 
 .mainpicture {
-  width: 1433px;
-  height: 1000px;
+  width: 100%;
+  height: 900px;
   position: absolute;
 }
 
 .h1 {
   font-family: "Playfair Display", sans-serif;
   font-weight: 100;
-  font-size: 25px;
+  font-size: 23px;
   color: #171717;
   position: absolute;
   align-items: center;
@@ -76,7 +76,7 @@ a:hover {
   display: flex;
   justify-content: space-around;
   width: 100%;
-  height: 475px;
+
   position: relative;
   display: flex;
   align-items: center;
@@ -84,7 +84,8 @@ a:hover {
 }
 
 .box-pictures {
-  width: 717px;
+  width: 100%;
+  height: 500px;
 }
 
 .products {
@@ -93,6 +94,15 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.products a {
+  color: black;
+}
+
+h2 a:hover {
+  color: white;
+  background: #b5b1a7;
 }
 
 .sustainability {
@@ -146,21 +156,21 @@ h2:hover {
   display: flex;
   justify-content: space-around;
   width: 100%;
-  height: 475px;
 }
 
 footer {
   background: #5c6158;
-  height: 350px;
+  height: 260px;
 }
 
 .creator {
-  justify-content: center;
-  margin-left: 630px;
+  text-align: center;
   font-family: "Roboto", sans-serif;
   color: #b5b1a7;
   font-size: 12px;
   text-transform: uppercase;
+  background: #5c6158;
+  padding-bottom: 1rem;
 }
 
 .footer-box {
@@ -168,7 +178,7 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 300px;
+  height: 260px;
 }
 
 .menu {
@@ -192,4 +202,62 @@ footer {
 
 li {
   padding-bottom: 10px;
+}
+
+@media (max-width: 1220px) {
+  .header {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background: #5c6158;
+    height: 80px;
+    gap: 6rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .main {
+    width: 100%;
+    height: 800px;
+  }
+
+  .mainpicture {
+    width: 100%;
+    height: 800px;
+    position: absolute;
+  }
+
+  .box-pictures {
+    width: 100%;
+    height: 400px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .header {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background: #5c6158;
+    height: 80px;
+    gap: 6rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .main {
+    width: 100%;
+    height: 700px;
+  }
+
+  .mainpicture {
+    width: 100%;
+    height: 700px;
+    position: absolute;
+  }
+
+  .box-pictures {
+    width: 100%;
+    height: 350px;
+  }
 }
