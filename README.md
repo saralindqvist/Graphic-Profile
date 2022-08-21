@@ -12,4 +12,3 @@ HTML sidan behöver inte vara funktionell, utan det räcker att den illustrerar 
 
 Utgå från dessa bredder för era designs. Desktop: 1440px Läsplatta: 1024px Mobil: 640px
 
-Demo: https://livre-site.netlify.app
